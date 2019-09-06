@@ -1,0 +1,17 @@
+{
+  "name": "blush-scrapper",
+  "version": "1.0.0",
+  "description": "scrap blush pages",
+  "main": "entry.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "export ENV_VARIABLE='development' PORT=8000 && supervisor entry.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "csvtojson": "^2.0.8",
+    "esm": "^3.2.22",
+    "fs-extra": "^8.0.1"
+  }
+}
